@@ -21,4 +21,18 @@ This is a simple Magento 2 theme to demonstrate how a theme works inside the Mag
     `app/design/frontend/M2Theme/helloworld/web/css/source`\
     `app/design/frontend/M2Theme/helloworld/web/fonts`\
     `app/design/frontend/M2Theme/helloworld/web/images`\
-    `app/design/frontend/M2Theme/helloworld/web/js`\
+    `app/design/frontend/M2Theme/helloworld/web/js`
+- Creating a **theme logo**.\
+    Default logo name **logo.svg**.\
+    Default directory `<theme_dir>/web/images/logo.svg`.\
+    Simply put the file in the right directory.\
+- Creating a **theme logo with a different format**.\
+    `<theme_dir>/Magento_Theme/web/images/logo.png`\
+    `<theme_dir>/Magento_Theme/layout/default.xml`\
+- Create a theme **preview image**.\
+    `<theme_dir>/media/preview.jpg`\
+- Applying the theme.\
+    Access the Magento admin panel.\
+    Go to **Store->Configuration->Design**.\
+    Select the **Hello World theme**.\
+    Save the configuration.
