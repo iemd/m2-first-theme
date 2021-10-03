@@ -7,15 +7,15 @@ This is a simple Magento 2 theme to demonstrate how a theme works inside the Mag
 - Disable the caching system.
 
 **2. Getting statarted the theme development.**
-- Create the **vendor** directory of your theme.
+- Create the **vendor** directory of your theme.\
     `app/design/frontend/M2Theme`
-- Create the **theme** directory of your theme.
+- Create the **theme** directory of your theme.\
     `app/design/frontend/M2Theme/helloworld`
-- Create the **theme declaration** file.
+- Create the **theme declaration** file.\
     `app/design/frontend/M2Theme/helloworld/theme.xml`
-- Create the **theme registration** file.
+- Create the **theme registration** file.\
     `app/design/frontend/M2Theme/helloworld/registration.php`
-- Create the **static files directories**.
+- Create the **static files directories**.\  
     `app/design/frontend/M2Theme/helloworld/web`
     `app/design/frontend/M2Theme/helloworld/web/css`
     `app/design/frontend/M2Theme/helloworld/web/css/source`
