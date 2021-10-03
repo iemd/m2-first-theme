@@ -27,6 +27,7 @@ This is a simple Magento 2 theme to demonstrate how a theme works inside the Mag
     Default directory `<theme_dir>/web/images/logo.svg`.\
     Simply put the file in the right directory.
 - Creating a **theme logo with a different format**.\
+    We will override `Magento_Theme` module.
     `<theme_dir>/Magento_Theme/web/images/logo.png`\
     `<theme_dir>/Magento_Theme/layout/default.xml`
 - Create a theme **preview image**.\
