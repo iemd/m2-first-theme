@@ -37,3 +37,4 @@ This is a simple Magento 2 theme to demonstrate how a theme works inside the Mag
     Go to **Content->Design->Configuration**.\
     Select the **Hello World theme**.\
     Save the configuration.
+    
