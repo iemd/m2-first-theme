@@ -42,7 +42,7 @@ This is a simple Magento 2 theme to demonstrate how a theme works inside the Mag
 - One of the technologies that have totally changed the way the development of themes for Magento 2 is understood: **The Magento User Interface Library**.
 - The Magento User Interface Library is based on the LESS preprocessor, which facilitates the implementation of customizations in Magento 2 theme development.
 - LESS technology as a CSS preprocessing solution promotes the writing of reusable and maintainable CSS codes.
-- The Magento UI library is located in the `<magento_root>/lib/web/css/source/lib` directory.
+- The Magento UI library is located in the `<magento_root>/lib/web/css/source/lib` directory.\
 **1. LESS compilation in Magento 2**
 - Server-Side compilation LESS\ 
    Default compilation model used by the Magento 2 system.\
@@ -50,7 +50,7 @@ This is a simple Magento 2 theme to demonstrate how a theme works inside the Mag
    Suitable for production environments.   
 - Client-Side compilation LESS\
    Performed by the client machine via the browser using the native less.js library.\
-   Suitable for non-production environments.
+   Suitable for non-production environments.\
 **2. Customizations using the Magento UI library**   
 
 
