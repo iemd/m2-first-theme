@@ -46,12 +46,19 @@ This is a simple Magento 2 theme to demonstrate how a theme works inside the Mag
 ### 1. LESS compilation in Magento 2
 - **Server-Side compilation LESS**\
    Default compilation model used by the Magento 2 system.\
-   Performed by the server using the LESS PHP library.\
+   Performed by the server using the LESS `PHP` library.\
    Suitable for production environments.   
 - **Client-Side compilation LESS**\
-   Performed by the client machine via the browser using the native less.js library.\
+   Performed by the client machine via the browser using the native `less.js` library.\
    Suitable for non-production environments.
-### 2. Customizations using the Magento UI library**   
+### 2. Customizations using the Magento UI library
+- **The _styles.less file**\
+    Used as a standard nomenclature within the Magento 2 development environment.\
+    Responsible for loading the Magento UI library to your project.
+- **The _theme.less file**\
+    Override the predefined custom variables.\
+    Every variable that is rewritten in this file will be used throughout the Magento UI library on your theme.\
+    There is no need to write new, complex CSS rules.
 
 
 
